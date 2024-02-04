@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/.." vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Android_Login_Register_Firebase_App" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Android_Login_Register_Firebase_App/Android_LoginRegister_Firebase_App" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Android_Personal_Portfolio" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Android_Widgets" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Android_Widgets/Android_Widgets" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/MessagingApp" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/trialRepo" vcs="Git" />
+  </component>
+</project>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Add new details"
+        android:background="@color/purple_500"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:textColor="#fff"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="10dp"
+        android:text="Name:"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/rounded"
+        android:gravity="center"
+        android:id="@+id/userName"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="10dp"
+        android:text="Email"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/rounded"
+        android:gravity="center"
+        android:id="@+id/userEmail"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="10dp"
+        android:text="Course"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/rounded"
+        android:gravity="center"
+        android:id="@+id/userCourse"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="10dp"
+        android:text="Url"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/rounded"
+        android:gravity="center"
+        android:id="@+id/userImgUrl"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="20dp"
+        android:textSize="21dp"
+        android:background="@drawable/rounded"
+        android:gravity="center"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:id="@+id/btnSave"
+        android:text="Save"/>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="29dp"
+        android:textSize="21dp"
+        android:background="@drawable/rounded"
+        android:gravity="center"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:id="@+id/btnBack"
+        android:text="Back"/>
+
+</LinearLayout>
