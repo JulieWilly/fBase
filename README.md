@@ -1,0 +1,1 @@
+Firebase CRUD operations: \n This repository contains an android application that is used to demonstate and implement different aspects of adding, deleting, updating and creating firebase data bases using android
